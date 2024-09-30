@@ -12,8 +12,8 @@ const Contact: FC = () => {
                         @Ayush Barnwal
                     </div>
                     <div className="flex gap-5">
-                        <a href="/public">About</a>
-                        <a href="#work">Work</a>
+                        <a href="/about">About</a>
+                        <a href="/work">Work</a>
                         <a href="/contact-us">Contact</a>
                     </div>
                 </nav>

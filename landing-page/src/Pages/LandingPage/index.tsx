@@ -1,7 +1,6 @@
 import {FC} from "react";
 import Header from "../../components/Header";
 import Hero from "../../components/Hero";
-import About from "../../components/About"
 import Portofolio from "../../components/Portofolio";
 import Work from "../../components/Work";
 import Testimonial from "../../components/Testimonial";
@@ -14,7 +13,7 @@ const LandingPage: FC = () => {
     <>
       <Header />
       <Hero />
-      <About/>
+
       <Portofolio />
       <Work />
       <Testimonial/>
