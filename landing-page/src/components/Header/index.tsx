@@ -1,20 +1,15 @@
 import { FC } from "react";
-import './styles.css';
-import About from "../About"
+import About from "../About";
 
 const Index: FC = () => {
   return (
-    <header className="nav-container">
-      <nav>
-        <div>
-          @Ayush Barnwal
-        </div>
-        <div className="nav-list">
-          {/* <a href="/about">About</a> */}
-          <a href="/about" className="hover:underline">About</a>
-          <a href="#work" className="hover:underline">Work</a>
-          <a href="/contact-us" className="hover:underline">Contact</a>
-
+    <header className="absolute top-0 left-0 w-full px-6 sm:px-10 md:px-16 py-6 z-20">
+      <nav className="flex justify-between items-center font-sans text-lg">
+        <div className="font-normal">@Ayush Barnwal</div>
+        <div className="flex gap-6 sm:gap-8 md:gap-10">
+          <a href="/about" className="hover:underline text-black">About</a>
+          <a href="#work" className="hover:underline text-black">Work</a>
+          <a href="/contact-us" className="hover:underline text-black">Contact</a>
         </div>
       </nav>
     </header>

@@ -1,13 +1,12 @@
 import { FC } from "react";
 import HeroImg from "../../assets/hero-img.png";
 import OverlayMenu from "./components/OverlayMenu";
-import './styles.css';
 
 const Index: FC = () => {
   return (
-    <div className="hero">
+    <div className="w-screen h-screen relative bg-[#C7D0D9] flex justify-center items-end">
       <OverlayMenu />
-      <img src={HeroImg} alt="hero" className="hero-image"/>
+      <img src={HeroImg} alt="hero" className="max-w-[70%]"/>
     </div>
   );
 }
